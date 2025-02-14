@@ -1,0 +1,70 @@
+swabira@swabira-HCL-ME-Laptop:~/Desktop/Repo_cpp/deepaCPP$ ./Mountain.out
+Enter the size5
+Enter: 1
+Enter: 2
+Enter: 3
+Enter: 4
+Enter: 5
+Not a Mountain
+swabira@swabira-HCL-ME-Laptop:~/Desktop/Repo_cpp/deepaCPP$ ./Mountain.out
+Enter the size3
+Enter: 1
+Enter: 2
+Enter: 1
+Not a Mountain
+swabira@swabira-HCL-ME-Laptop:~/Desktop/Repo_cpp/deepaCPP$ g++ Mountain.cpp -o Mountain.out
+swabira@swabira-HCL-ME-Laptop:~/Desktop/Repo_cpp/deepaCPP$ ./Mountain.out
+Enter the size3
+Enter: 1
+Enter: 2
+Enter: 3
+Not a Mountain
+swabira@swabira-HCL-ME-Laptop:~/Desktop/Repo_cpp/deepaCPP$ ./Mountain.out
+Enter the size3
+Enter: 1
+Enter: 2
+Enter: 1
+Mountain
+swabira@swabira-HCL-ME-Laptop:~/Desktop/Repo_cpp/deepaCPP$ ./Mountain.out
+Enter the size5
+Enter: 5 
+Enter: 4
+Enter: 3
+Enter: 2
+Enter: 1
+Not a Mountain
+swabira@swabira-HCL-ME-Laptop:~/Desktop/Repo_cpp/deepaCPP$ ./Mountain.out
+Enter the size4
+Enter: 5
+Enter: 1
+Enter: 2
+Enter: 3
+Not a Mountain
+swabira@swabira-HCL-ME-Laptop:~/Desktop/Repo_cpp/deepaCPP$ ./Mountain.out
+Enter the size6
+Enter: 1
+Enter: 3
+Enter: 5
+Enter: 3
+Enter: 5
+Enter: 2
+Not a Mountain
+swabira@swabira-HCL-ME-Laptop:~/Desktop/Repo_cpp/deepaCPP$ ./Mountain.out
+Enter the size1
+Enter: 1
+Not a Mountain
+swabira@swabira-HCL-ME-Laptop:~/Desktop/Repo_cpp/deepaCPP$ ./Mountain.out
+Enter the size5
+Enter: 1
+Enter: 3
+Enter: 5
+Enter: 5
+Enter: 2
+Not a Mountain
+swabira@swabira-HCL-ME-Laptop:~/Desktop/Repo_cpp/deepaCPP$ ./Mountain.out
+Enter the size2
+Enter: 1
+Enter: 2
+Not a Mountain
+swabira@swabira-HCL-ME-Laptop:~/Desktop/Repo_cpp/deepaCPP$ 
+
