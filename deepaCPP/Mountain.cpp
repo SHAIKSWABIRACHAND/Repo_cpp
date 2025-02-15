@@ -13,7 +13,7 @@ else{peakFound = false;break;}
 
 }
 }
-return (peakFound? true:false);
+return peakFound;
 }
 int main(){
 cout<<"Enter the size";
