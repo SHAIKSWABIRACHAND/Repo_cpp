@@ -13,7 +13,7 @@ int main(){
     }
 
     // int arr[7] = {0,1,2,3,4,5,7};
-    // int b[7] = {0,1,2,3,4,5,6};
+    int b[7] = {0,1,2,3,4,5,6};
     int l = 0,r = 6,mid = (r+l)/2;
     while(true){
         if(arr[mid] == b[mid]){
