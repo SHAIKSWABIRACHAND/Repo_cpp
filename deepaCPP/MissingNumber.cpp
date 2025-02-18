@@ -5,7 +5,7 @@ int main(){
     int n;
     cin>>n;
     cout<<"Enter "<<n<<" numbers";
-    int a[n];
+    int arr[n];
 
 
     for(int i = 0;i<n;i++){
