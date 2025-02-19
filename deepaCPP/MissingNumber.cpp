@@ -9,7 +9,7 @@ int main(){
 
 
     for(int i = 0;i<n;i++){
-        cin>>a[i];
+        cin>>arr[i];
     }
 
     // int arr[7] = {0,1,2,3,4,5,7};
