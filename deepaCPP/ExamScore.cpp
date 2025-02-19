@@ -6,33 +6,33 @@ When a new score is entered, it must be placed in the correct ranking order.
 #include<iostream>
 using namespace std;
 
- int* Arrange(int a[],int n,int x){
-    int n = sizeof(a)/4;
-   int index;
-   bool BaseCondition = false;
-   
-   // later change this into an efficient way
-    for(int i = 0; i<n - 1 ;i++){
-        if(a[i]>x and a[i+1]<x){
-            index = i+1;
-            BaseCondition = true;
-            break;
-        }
-        
-        if(BaseCondition){
-            for(int i = n - 2;i>=index;i-- ){
-                a[i+1]=a[i];
-            }
-            a[index] = x;
-        }
-        
-        return a;
+// basic code
+
+void addScore(int a[], int n,int marks){
+    // index which it is kept
+    int i = n-1;
+    while(a[i-1]<marks){
+        a[i] = a[i-1];
+        i--;
     }
-    //
-    
-    index;
-    return a;
+    a[i] = marks;
 }
+
+void Display(int a[],int n){
+    for(int i = 0;i<n;i++){
+        cout<<a[i]<<" ";
+    }
+}
+
 int main(){
+    
+    int n = 6;
+    int a[n] = {100,90,60,40,9,8};
+    int marks;
+    cout<<"Enter the marks: ";
+    cin>>marks;
+    addScore(a,n,marks);
+    Display(a,n);
+    
     
 }
