@@ -23,8 +23,8 @@ class SLL
 {
 private:
     Node *head;
-
 public:
+    
     SLL()
     {
         head = nullptr;
@@ -70,12 +70,30 @@ public:
     void display()
     {
         Node *temp = head;
-        while (temp->next != temp)
+        while (temp->next != nullptr)
         {
             cout << temp->name << " ";
             temp = temp->next;
         }
         cout << temp->name;
+    }
+
+    void reverse()
+    {
+        Node *prev = nullptr;
+        Node *current = head;
+        Node *future = current->next;
+
+        while (current->next != nullptr)
+        {
+
+            current->next = prev;
+            prev = current;
+            current = future;
+            future = future->next;
+        }
+        current->next = prev;
+        head = current;
     }
 };
 
@@ -87,7 +105,8 @@ int main()
     sll->add("Hannu3");
     sll->add("Hannu4");
     sll->add("Hannu5");
-    sll->display();
-    sll->add();
+
+    sll->reverse();
+
     sll->display();
 }
