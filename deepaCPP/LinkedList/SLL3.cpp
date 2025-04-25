@@ -175,7 +175,7 @@ int main()
     s2->add(p);
     s2->add(q);
     s2->add(c);
-    s1->display();
+    s1->display();  
     s2->display();
 
     Intersect(s1,s2);

@@ -1,0 +1,3 @@
+complete the SLL2.cpp with intersection part
+
+need to add getters and setters for all the operations and need to make state variables private o restrict direct access outside the class
